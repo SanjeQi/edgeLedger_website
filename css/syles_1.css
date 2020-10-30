@@ -1,36 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
-/* Reset and Main Elements*/
+/* Reset and General Elements Styling */
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
-
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
-  background: #fff;
-  color: #333;
 }
-
 ul {
   list-style: none;
 }
-a {
-  color: #333;
-  text-decoration: none;
-}
 h1,
 h2 {
-  font-weight: 300;
   line-height: 1.2;
+  font-weight: 300;
 }
 p {
   margin: 10px 0;
 }
+a {
+  text-decoration: none;
+}
 img {
   width: 100%;
+}
+/* Utilities */
+
+.text-primary {
+  color: #28a745;
+}
+.text-secondary {
+  color: #0284d0;
 }
 /* Header Navbar */
 .navbar {
@@ -49,15 +52,19 @@ img {
 .navbar ul {
   display: flex;
 }
-
 .navbar a {
-  color: #fff;
   padding: 10px 20px;
   margin: 0 5px;
-}
-.navbar a:hover {
-  border-bottom: #28a745 2px solid;
+  color: #fff;
 }
 .navbar h1 {
   font-weight: 400;
+}
+
+.navbar a:hover {
+  border-bottom: 2px solid #28a745;
+}
+/* Header Content */
+.content {
+  display: none;
 }
