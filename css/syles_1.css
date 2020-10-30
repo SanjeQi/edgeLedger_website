@@ -65,6 +65,53 @@ img {
   border-bottom: 2px solid #28a745;
 }
 /* Header Content */
-.content {
-  display: none;
+.hero {
+  background-image: url(/images/home/showcase.jpg);
+  height: 100vh;
+  position: relative;
+  color: #fff;
+}
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+.hero .content h1 {
+  font-size: 55px;
+}
+.hero .content p {
+  font-size: 23px;
+  font-size: 23px;
+  max-width: 600px;
+  margin: 20px 0 30px;
+}
+.btn {
+  display: inline-block;
+  background-color: #28a745;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 20px;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+/* Overlay */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.6;
+}
+.hero * {
+  z-index: 10;
 }
