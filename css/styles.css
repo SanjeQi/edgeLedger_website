@@ -133,3 +133,8 @@ img {
 .flex-items > div {
   padding: 20px;
 }
+/* Cases Section ******************** */
+
+.cases img:hover {
+  opacity: 0.7;
+}
