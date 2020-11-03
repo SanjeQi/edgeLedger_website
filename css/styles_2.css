@@ -67,6 +67,7 @@ img {
 /* Header Content */
 .hero {
   background-image: url(/images/home/showcase.jpg);
+  background-size: cover;
   height: 100vh;
   position: relative;
   color: #fff;
