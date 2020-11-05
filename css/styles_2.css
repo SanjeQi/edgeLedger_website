@@ -186,3 +186,12 @@ img {
   color: #fff;
   padding: 10px;
 }
+/* Cases Section */
+.section-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}

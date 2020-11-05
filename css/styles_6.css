@@ -198,10 +198,12 @@ p {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
-  flex: 1;
+  flex: 1; /*grow shrink basis*/
 }
 .flex-columns img {
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .flex-columns .column .column-2 {
   background-color: #28a745;
