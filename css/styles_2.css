@@ -195,3 +195,19 @@ img {
   text-align: center;
   padding: 30px;
 }
+.section-header h4 {
+  margin-bottom: 15px;
+}
+.section-header h2 {
+  font-size: 40px;
+}
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
